@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Start of navbar */
+.navbar {
+    background-color: #C62828!important;
+    color: white !important;
+}
+.nav-link{
+    font-weight: bold !important; 
+}
+.nav-link:hover{
+    color: whitesmoke !important;
+    border-bottom: 2px solid white !important;
+}
+.logo{
+    text-shadow: 2px 2px 8px black;
+    font-size: 40px;
+  font-weight: bold ;
+  color: whitesmoke;
+}
+.image{
+    width: auto;
+    height: 80px;
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+    .logo{
+        font-size: 38px;
+    }
+}
+@media screen and (max-width:575px)
+{
+    .logo{
+        font-size: 26px;
+    }
+    .image{
+        width: auto;
+        height: 60px;
+    }
+}
+/* end of navbar */
+
+
+
+/* start of background image */
+
+.text{
+    width: 100%;
+    height: 500px;
+    background: url(../../../../../images/Wallpaper.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 60px ;
+}
+@media screen and (max-width:575px){
+  .text{
+      width: 100%;
+      height: 250px;
+      font-size: 30px ;
+  }
+}
+@media screen and (min-width:576px) and (max-width:767px){
+    .text{
+        width: 100%;
+        height: 375px;
+        font-size: 45px ;
+    }
+}
+
+/* end of background image */
+
+/* Start of Head */
+.headddd{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color: #C62828;
+    text-shadow: 2px 2px 8px #C62828;
+    font-size: 60px;
+    font-weight: bold;
+}
+.headddd:hover{
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+@media screen and (max-width:575px){
+    .headddd{
+        font-size: 24px;
+    }
+  }
+  @media screen and (min-width:576px) and (max-width:767px){
+      .headddd{
+          font-size: 45px;
+      }
+  }
+/* Start of Head */
+
+
+
+
+
+
+
+/* start of Contact Us */
+
+.container{
+    margin-top: 60px;
+    margin-bottom: 100px;
+    width: 700px;
+    height: auto;
+}
+.pic{
+    width: 650px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.address{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 18px;
+    
+}
+link{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+link:hover{
+    color: black;
+    text-decoration: none;
+}
+@media screen and (max-width:575px){
+    .container{
+        width: 200px;
+        height: auto;
+        
+    }
+    .pic{
+        width: 180px;
+        height: auto;
+    }
+    .address{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    link{
+        font-size: 8px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:767px){
+    .container{
+        width: 500px;
+        height: auto;
+        margin-bottom: 160px;
+    }
+    .pic{
+        width: 450px;
+        height: auto;
+    }
+    .address{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    link{
+        font-size: 14px;
+    }
+}
+
+/* End of Contact Us */
+
+
+.float{
+	position:fixed;
+	width:40px;
+	height:40px;
+	bottom:60px;
+    right:10px;
+    background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:26px;
+	box-shadow: 2px 2px 2px #999;
+  z-index:100;
+}
+.float:hover{
+    transition: 0.5s ease;
+    background-color:#C62828;
+	color:#FFF;
+}
+@media screen and (max-width:575px){
+    .float{
+        width: 25px;
+        height: 25px;
+        font-size: 15px;
+        right: 5px;
+        bottom: 60px;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* Start of Footer */
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color:#C62828 ;
+}
+.foot {
+    font-size: 16px;
+    color: gray;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+@media screen and (max-width:575px){
+    .footer{
+        width: 100%;
+        height: 30px;
+        background-color:#C62828 ;
+    }
+    .foot {
+        font-size: 8px;
+        color: gray;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+  }
+  @media screen and (min-width:576px) and (max-width:767px){
+    .footer{
+        width: 100%;
+        height: 40px;
+        background-color:#C62828 ;
+    }
+    .foot {
+        font-size: 12px;
+        color: gray;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+  }
+  
+/* end of Footer */
